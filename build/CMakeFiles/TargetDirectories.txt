@@ -1,0 +1,3 @@
+/home/samox/Nextcloud/Studies/ComSci/P1/OpenGL_CMake/conway/build/CMakeFiles/rebuild_cache.dir
+/home/samox/Nextcloud/Studies/ComSci/P1/OpenGL_CMake/conway/build/CMakeFiles/main.dir
+/home/samox/Nextcloud/Studies/ComSci/P1/OpenGL_CMake/conway/build/CMakeFiles/edit_cache.dir
