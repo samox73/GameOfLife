@@ -62,13 +62,14 @@ static void RenderSceneCB()
 		glReadPixels(0, 0, WIDTH, HEIGHT, GL_RGBA, GL_UNSIGNED_BYTE, buffer);
 		fwrite(buffer, sizeof(int)*WIDTH*HEIGHT, 1, ffmpeg);
 	} else if (FRAME_COUNT == DURATION * 30) {
+		FRAME_COUNT++;
 		pclose(ffmpeg);
 		std::cout << "Done!" << endl;
 		exit(0);
 	}
 	
-	//std::cout << "Frame: " << ::FRAME_COUNT << std::endl;
 	FRAME_COUNT++;
+	//std::cout << "Frame: " << ::FRAME_COUNT << std::endl;
 	//usleep(20000);
 }
 
